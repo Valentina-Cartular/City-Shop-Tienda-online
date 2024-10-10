@@ -1,0 +1,149 @@
+
+header nav{
+    background-color: gray;
+}
+
+header p{
+    font-size: 28px;
+    display: flex;
+}
+
+footer{
+    background-color: gray;
+    height: 150px;
+}
+
+header carrito{
+    height: auto;
+}
+
+.logo{
+    font-size: 35px;
+    color: greenyellow;
+}
+
+
+.contenedor{
+    display: ruby;
+    
+}
+
+.contenedor img{
+    width: auto;
+    height: 280px;
+}
+
+.card-body{
+    height: 300px;
+    
+}
+
+.card-title{
+    font: 1em sans-serif;
+    text-align: center;
+}
+
+
+.card :hover{
+    transform: scale(1.2);
+    transition: 1s;
+    cursor: pointer;
+}
+
+
+.btn btn-dark{
+    text-align: center;
+}
+
+
+p{
+    font-size: 20px; 
+    color: black;
+}
+
+.carousel-item {
+    display: block;
+    width: 300%;
+    height: 1000px;
+}
+.carousel-item img {
+    height: 160%;
+    width: 300%;
+}
+
+
+.carousel-item {
+    display: block;
+    width: 300%;
+    height: 1000px;
+    background-position: center;
+    background-repeat: non-repeat;
+    background-size: cover;
+  }
+
+
+  .grid-messi{
+    width: 100%;
+    margin-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+     grid-auto-rows: 250px;
+     gap: 10px;
+  }
+
+  .grid-messi div img {
+    width: 100%;
+    height: 100%;
+   object-fit: cover;
+   box-shadow: 10px 10px 48px -15px rgba(0,0,0,0.78);
+    -webkit-box-shadow: 10px 10px 48px -15px rgba(0,0,0,0.78);
+    -moz-box-shadow: 10px 10px 48px -15px rgba(0,0,0,0.78);
+
+}
+
+
+ .grid-galeria.img-3{
+    grid-column: span 3;
+    grid-column-start: 
+    grid-column-end: ;
+
+}
+
+
+.grid-galeria{
+    position: relative;
+}
+  
+.grid-galeria h3{
+    position: absolute;
+    bottom: 0;
+    color: antiquewhite;
+    background-color: transparent;
+    width: 100%;
+    padding: 5px; 
+}
+
+
+
+        /* Estilos básicos para el carrito */
+        #carrito {
+            border: 1px solid #ccc;
+            padding: 10px;
+            width: 200px;
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: #fff;
+        }
+    
+
+        .medios-de-pago{
+           
+            height: 50px;
+        }
+
+        .mp{
+            height: 50px;
+        }
+
+       
